@@ -18,11 +18,11 @@ function clickEventHandler() {
   per = per.toFixed(2);
 
   if (res > 0) {
-    output.innerHTML = `<span style="color: green">Profit : +$${res} <br >Percentage profit: ${per}%</span>`;
+    output.innerHTML = `You have earned a profit of : +$${res} <br > with a percentage profit of : ${per}%</span>`;
   } else if (res == 0) {
     output.innerHTML = "No profit or loss";
   } else {
-    output.innerHTML = `<span style="color: red">Loss : -$${-res} <br >Percentage loss: ${per}%</span>`;
+    output.innerHTML = `<span style="color: red">You lost: -$${-res} <br >with loss percentage being: ${per}%</span>`;
   }
 
 }
