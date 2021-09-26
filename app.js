@@ -20,7 +20,7 @@ function clickEventHandler() {
   if (res > 0) {
     output.innerHTML = `You have earned a profit of : +$${res} <br > with a percentage profit of : ${per}%</span>`;
   } else if (res == 0) {
-    output.innerHTML = "No profit or loss";
+    output.innerHTML = "No pain no gain no gain no pain";
   } else {
     output.innerHTML = `<span style="color: red">You lost: -$${-res} <br >with loss percentage being: ${per}%</span>`;
   }
